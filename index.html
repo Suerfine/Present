@@ -1,11 +1,13 @@
 <!DOCTYPE html>
     <head>
-        <title>Message For You</title>
+        <title>Gift For You</title>
     </head>
     <body>
-        <div class="wrapper">
-            <h2 class="message">Do you wanna know a secret?</h2>
-            <img id="gif" class="gif" alt="gif" src="https://i.pinimg.com/originals/23/f6/c4/23f6c45a51468b1a47c6b2b21ce81a0b.gif"/>
+        <div class="wrapper" style="text-align: center;">
+            <h2 class="message">Would you like a gift?</h2>
+            <div style="text-align: center;">
+                <img id="gif" class="gif" alt="gif" src="https://usagif.com/wp-content/uploads/gift-56.gif"/>
+            </div>
             <div class="btn-group">
                 <button class="yes-btn" style="margin-left: -200px;" onclick="Yes();"><b>Yes</b></button>
                 <button class="no-btn" style="margin-right: -200px;" onclick="No(this);"><b>No</b></button>
@@ -19,7 +21,7 @@
     let msg="";
     
     function Yes(){
-        msg="How could you say no to me take your punishment :(";
+        msg="How could you say no. Well too bad your getting it.";
         src="https://i.pinimg.com/originals/22/23/a0/2223a0ad27fb6e0dd6d75f35b672515b.gif";
         move(yesBtn);
         yesBtn.setAttribute('onclick', "move(this)");
